@@ -22,15 +22,15 @@
             .col-4.col-lg-3.offset-4.offset-lg-0.align-self-center
               figure
                 img(src="@/assets/template/tema-1-2.svg" alt="Texto que describa la imagen")
-            .col-12.col-lg-9.mt-4.mt-lg-0.align-self-center  
+            .col-12.col-lg-7.mt-4.mt-lg-0.align-self-center  
               p Como primera medida es necesario tener en cuenta la definición de un entorno de desarrollo integrado IDE, que es un espacio de trabajo basado en tecnologías y software que sirven de plataforma para el diseño de aplicaciones que componen una serie de herramientas para el desarrollador de software. Un IDE cuenta con las siguientes características:
     .row.mt-5
       .col-12
         //- LineaTiempoD debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-        LineaTiempoD.color-primario
+        LineaTiempoD.color-secundario
           .row(numero="1" titulo="Editor de código fuente")
-            p  Es un editor de texto que ayuda a escribir en el lenguaje de programación definido; esta herramienta apoya la sintaxis o construcción de instrucciones para que se realicen de la manera correcta. Una de sus funcionalidades más importantes es resaltar ciertas partes del código que se están desarrollando, para tener una referencia sobre el flujo o línea lógica del desarrollo de la aplicación. De manera adicional hay editores que ayudan a autocompletar ciertas funciones ya preestablecidas del lenguaje.
+            p Es un editor de texto que ayuda a escribir en el lenguaje de programación definido; esta herramienta apoya la sintaxis o construcción de instrucciones para que se realicen de la manera correcta. Una de sus funcionalidades más importantes es resaltar ciertas partes del código que se están desarrollando, para tener una referencia sobre el flujo o línea lógica del desarrollo de la aplicación. De manera adicional hay editores que ayudan a autocompletar ciertas funciones ya preestablecidas del lenguaje.
 
           .row(numero="2" titulo="Automatización de compilaciones locales")
             p Es un recurso que permite automatizar tareas sencillas e iterativas como parte de la creación de una compilación local del software para su uso por parte del desarrollador.
@@ -40,7 +40,6 @@
             .col-12
               .row.mb-5
                 .col-sm.mb-5.mb-sm-0
-                  h4 Listado ordenado cuadro color
                   ol.lista-ol--cuadro
                     li 
                       .lista-ol--cuadro__vineta
@@ -106,8 +105,9 @@
               .lista-ol--cuadro__vineta
                 span.color-sistema-texto 3
               p.mb-0 Por defecto, el Visual Studio Code se instala en la siguiente ruta: 
-          figure.mt-3
-            img(src="@/assets/template/tema-1-5.png" alt="Texto que describa la imagen").w-50.mb-0
+          p.align-items-center.color_enlace.mt-3 C:\users\{username}\AppData\Local\Programs\Microsoft VS Code
+          //-figure.mt-3
+          //-img(src="@/assets/template/tema-1-5.png" alt="Texto que describa la imagen").w-50.mb-0
     #t_1_3.titulo-segundo.mt-5
       .h4 1.3  	Instalación y configuración del Node.js y npm
     figure
@@ -142,7 +142,7 @@
           figcaption.mt-3 Nota. SENA (2021). 
           p.mt-2 Instalado Node y npm se inicia a construir el proyecto, por lo tanto, se ejecuta el comando npm init, esto activará la inicialización del proyecto. Este comando funciona como una herramienta o recurso para crear el archivo package.json de un proyecto. Una vez se ejecuten todos los pasos de npm init se generará ese archivo y se guardará en el directorio actual, que para el caso de este componente formativo se llama REST API.
     #t_1_4.titulo-segundo.mt-5
-      .h4 1.4  Instalación de módulos
+      .h4 1.4  Instalación de módulo
     figure
       img(src="@/assets/template/tema-1-9.svg" alt="Texto que describa la imagen")
     p.mt-5 Un paquete en Node.js contiene todos los archivos que se necesitan para instalar un módulo; los módulos son bibliotecas de JavaScript que se pueden incluir en el proyecto. Instalar módulos es una de las principales tareas que debe aprender a hacer al comenzar con el administrador de paquetes Node. El comando para instalar un módulo en el directorio actual es el siguiente:
@@ -150,17 +150,17 @@
       ul.lista-ul        
         li 
           i.fas.fa-angle-right
-          | $ npm install módulo 
+          | $ npm install < módulo >
         li 
           i.fas.fa-angle-right
-          | $ npm i módulo 
+          | $ npm i < módulo >
     p.mt-5 El primer módulo a instalar es Express, el cual es el framework web más popular de Node y proporciona mecanismos para:
     .col-sm.mt-5
       ol.lista-ol--cuadro.lista-ol--separador
         li 
           .lista-ol--cuadro__vineta.bg-color-secundario
             span 1
-          | Escritura de manejadores de peticiones con diferentes verbos HTTP, en diferentes caminos URL (rutas).
+          | Escritura de manejadores de peticiones con diferentes verbos HTTP, en diferentes caminos URL (#[strong rutas]). 
         li 
           .lista-ol--cuadro__vineta.bg-color-secundario
             span 2

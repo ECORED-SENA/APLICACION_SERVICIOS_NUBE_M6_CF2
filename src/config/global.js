@@ -165,7 +165,7 @@ export default {
     },
     {
       referencia: 'npm. (2021). About npm. ',
-      link: 'npm. (2021). About npm. ',
+      link: 'https://www.npmjs.com/about',
     },
     {
       referencia: 'Red Hat. (2021). El concepto de IDE.',

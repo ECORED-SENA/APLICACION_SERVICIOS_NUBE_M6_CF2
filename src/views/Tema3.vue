@@ -24,13 +24,13 @@
             .col.mb-3.mb-sm-0
               .row
                 .col-lg-6
-                  a.anexo(:href="obtenerLink('/downloads/Instalacion_herramientas_Postman.pdf.pdf')" target="_blank")
+                  a.anexo(:href="obtenerLink('/downloads/Instalacion_herramientas_Postman.pdf')" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-pdf.svg")
                     .anexo__texto
                       p Anexo. Instalacion_herramienta
             .col-sm-auto
-              a.boton.color-acento-contenido(:href="obtenerLink('/downloads/Instalacion_herramientas_Postman.pdf.pdf')" target="_blank")
+              a.boton.color-acento-contenido(:href="obtenerLink('/downloads/Instalacion_herramientas_Postman.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 
