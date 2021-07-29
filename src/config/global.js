@@ -236,10 +236,9 @@ export default {
   creditos: {
     liderEquipo: [
       {
-        nombre: 'Santiago Muñoz de la Rosa',
-        cargo: 'Experto Temático',
-        centro:
-          'Regional Cauca, Centro de Teleinformática y Producción Industrial',
+        nombre: 'Maria Camila García Santamaría',
+        cargo: 'Líder del equipo',
+        centro: 'Dirección General',
       },
     ],
     contenidoInstruccional: [
@@ -247,26 +246,61 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
       },
       {
-        nombre: 'Ana Catalina Córdoba Sus ',
-        cargo: 'Revisora metodológica y pedagógica',
+        nombre: 'Santiago Muñoz de la Rosa',
+        cargo: 'Experto Temático',
         centro:
-          'Regional Distrito Capital – Centro para la Industria de la Comunicación Gráfica.',
+          'Centro de Teleinformática y Producción Industrial - Regional Cauca',
       },
-    ],
-    desarrolloProducto: [
       {
         nombre: 'Paula Andrea Taborda Ortiz',
         cargo: 'Diseñadora instruccional',
-        centro: 'Regional Distrito Capital - Centro de diseño y metrología.',
+        centro: 'Centro de diseño y metrología - Regional Distrito Capital ',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
       {
         nombre: 'Julia Isabel Roberto',
         cargo: 'Diseñadora y evaluadora instruccional',
         centro:
-          'Regional Distrito Capital – Centro para la Industria de la Comunicación Gráfica.',
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
+    ],
+    desarrolloProducto: [
+      {
+        nombre: 'Francisco José Lizcano Reyes',
+        cargo: 'Responsable del equipo',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: 'Leyson Fabian Castaño Perez',
+        cargo: 'Soporte organizacional',
+        centro: 'Regional Tolima - Centro de Comercio y Servicios',
+      },
+      {
+        nombre: 'Luis Fernando Sarmiento Betancourth',
+        cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: 'Lizeth Karina Manchego Suárez',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: 'Rafael Augusto Mantilla López',
+        cargo: 'Validación de diseño y contenido',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
       },
     ],
     gestoresRepositorio: [
