@@ -6,7 +6,7 @@
     .titulo-principal
       .titulo-principal__numero
         span 1
-      h1 La internet y la web
+      h1 Alistamiento del entorno de desarrollo
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/template/tema-1-1.png')})`}"
@@ -142,7 +142,7 @@
           figcaption.mt-3 Nota. SENA (2021). 
           p.mt-2 Instalado Node y npm se inicia a construir el proyecto, por lo tanto, se ejecuta el comando npm init, esto activará la inicialización del proyecto. Este comando funciona como una herramienta o recurso para crear el archivo package.json de un proyecto. Una vez se ejecuten todos los pasos de npm init se generará ese archivo y se guardará en el directorio actual, que para el caso de este componente formativo se llama REST API.
     #t_1_4.titulo-segundo.mt-5
-      .h4 1.4  Instalación de módulo
+      .h4 1.4  Instalación de módulos
     figure
       img(src="@/assets/template/tema-1-9.svg" alt="Texto que describa la imagen")
     p.mt-5 Un paquete en Node.js contiene todos los archivos que se necesitan para instalar un módulo; los módulos son bibliotecas de JavaScript que se pueden incluir en el proyecto. Instalar módulos es una de las principales tareas que debe aprender a hacer al comenzar con el administrador de paquetes Node. El comando para instalar un módulo en el directorio actual es el siguiente:
